@@ -8,7 +8,6 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: rgb(218, 148, 200);
     color: white;
@@ -22,7 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 15%;
+  padding: 14%;
 }
 
 .apresentacao_conteudo{
@@ -86,4 +85,12 @@ body {
 
 .gatinho:hover {
   transform: scale(1.1) rotate(5deg);
+}
+
+.rodape{
+  color: rgb(78, 52, 21);
+  background-color: rgb(235, 216, 230);
+  padding: 24px;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
 }
