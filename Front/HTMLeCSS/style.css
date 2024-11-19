@@ -10,7 +10,7 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(198, 153, 224);
+    background-color: rgb(218, 148, 200);
     color: white;
   }
 
@@ -19,10 +19,10 @@ body {
 }
 
 .apresentacao{
-  margin: 10% 20%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 15%;
 }
 
 .apresentacao_conteudo{
@@ -47,8 +47,16 @@ body {
   justify-content: space-between;
 }
 
+.apresentacao_redes{
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+}
+
 .botoes{
-  background-color: rgb(166, 109, 189);
+  border: 2px solid rgb(78, 52, 21);
+  display: flex;
+  justify-content: center;
+  gap: 15px;
   width: 280px;
   text-align: center;
   border-radius: 15px;
@@ -57,10 +65,25 @@ body {
   text-decoration: none;
   color: rgb(78, 52, 21);
   font-family: "Exo 2", sans-serif;
-
 }
 
-.img {
+.gatinho {
   border-radius: 8%;
-  width: 300px;
+  width: 400px;
+}
+
+.git{
+  width: 13%;
+}
+
+.link{
+  width: 13%;
+}
+
+.botoes:hover{
+  background-color: rgb(185, 115, 168);
+}
+
+.gatinho:hover {
+  transform: scale(1.1) rotate(5deg);
 }
