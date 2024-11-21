@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+ --rosa: rgb(218, 148, 200);
+ --branco: rgb(255, 255, 255);
+ --marrom: rgb(78, 52, 21);
+ --rosa-claro: rgb(235, 216, 230);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--rosa);
+  color: var(--branco);
+
+}
+
+.cabecalho{
+  padding: 2% 0 0 18%;
+  width: full;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+.cabecalho_menu{
+  color: var(--marrom);
+  font-size: 24px;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: none;
+}
+
+.cabecalho_menu:hover{
+  transform: translateY(-5px); /* Button moves upward */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.titulo-destaque {
+    color: var(--marrom);
+}
+
+.apresentacao{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 11.5%;
+}
+
+.apresentacao_about{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 9%;
+}
+
+.apresentacao_conteudo{
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutme_conteudo{
+  width: 70%;
+}
+
+.sentado {
+  float: left;
+  width: 30%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+}
+
+.aboutme_texto {
+  flex: 1; /* O texto ocupa o restante do espaço */
+  text-align: center; /* Texto justificado */
+  font-family: "Exo 2", sans-serif;
+  font-size: large;
+  text-justify: distribute;
+  text-indent: 2%;
+  letter-spacing: 2px;
+}
+
+.apresentacao_conteudo_titulo{
+  font-size: 30px;
+  font-family: "Edu AU VIC WA NT Pre", serif;
+}
+
+.apresentacao_conteudo_texto{
+  font-size: 24px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.apresentacao_links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.apresentacao_redes{
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+}
+
+.botoes{
+  border: 2px solid var(--marrom);
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  width: 280px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 24px;
+  padding: 10px 0;
+  text-decoration: none;
+  color: var(--marrom);
+  font-family: "Exo 2", sans-serif;
+}
+
+.gatinho {
+  border-radius: 8%;
+  width: 400px;
+  padding-left: 2%;
+}
+
+.git{
+  width: 13%;
+}
+
+.link{
+  width: 13%;
+}
+
+.botoes:hover{
+  background-color: var(--rosa-claro);
+}
+
+.sentado:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.rodape{
+  color: var(--marrom);
+  background-color: var(--rosa-claro);
+  padding: 24px;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+}
