@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&display=swap');
+
+:root{
+    --cor-fundo: #3A7D44;
+    --cor-fonte: #FFFFFF;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+}
+
+.cabecalho{
+    padding: 2% 0 0 5%;
+    width: full;
+}
+
+.cabecalho_titulo{
+    font-family: "Major Mono Display", monospace;
+    font-style: normal;
+    font-size: 500%;
+    color: var(--cor-fonte);
+    opacity: 80%;
+}
+
+.corpo{
+    padding: 6% 0 0 30%;
+}
+
+.base_quadrado{
+    padding: 1%;
+    width: 800px; 
+    height: 553px;
+    background-color: rgba(217, 217, 217, 0.4);
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.botoes_quadrado{
+    width: 148px; /* Largura */
+    height: 100px; /* Altura */
+    background-color: rgb(252, 252, 252);
+    opacity: 70%;
+    border-radius: 10% 10%;
+}
+
+.rodape{
+    padding-top: 5%;
+    position: sticky;
+    bottom: 0;
+}
+
+.git{
+    width: 5%;
+}
+
+.rodape_link_contato{
+    display: flex;
+    justify-content: right;
+
+}
