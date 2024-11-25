@@ -17,7 +17,9 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0 0 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5% 0 5%;
     width: full;
 }
 
@@ -27,6 +29,37 @@ body{
     font-size: 500%;
     color: var(--cor-fonte);
     opacity: 80%;
+}
+
+.cabecalho_aviso {
+    position: relative; /* Necessário para o posicionamento absoluto do texto */
+    display: flex;
+    align-items: center; /* Centraliza texto e imagem verticalmente */
+}
+
+.cabecalho_aviso_texto{
+    opacity: 0; /* Inicialmente invisível */
+    position: absolute;
+    left: -150%; /* Posiciona o texto à esquerda da imagem */
+    top: 50%; /* Centraliza verticalmente em relação à imagem */
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro */
+    color: var(--cor-fonte); /* Cor do texto */
+    padding: 5px 10px;
+    border-radius: 4px; /* Bordas arredondadas */
+    white-space: nowrap; /* Impede que o texto quebre */
+    transition: opacity 0.3s ease; /* Transição suave */
+}
+
+.cabecalho_aviso_imagem {
+    width: 3%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+}
+
+.cabecalho_aviso_imagem:hover .cabecalho_aviso_texto{
+    opacity: 1;
 }
 
 .corpo{
