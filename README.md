@@ -3,7 +3,7 @@ Repo feito para guardar estudos feitos na alura
 
 ## FrontEnd
 
-### [HTML e CSS](https://soundmapify.vercel.app)
+### [HTML e CSS](alura-orpin.vercel.app)
     data de inicio: 18/11/2024
     data de finalização: 21/11/24
 
