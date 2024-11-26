@@ -1,9 +1,14 @@
-Repositório para salvar projetos desenvolvidos durantes as aulas do Alura
+# Alura
+Repo feito para guardar estudos feitos na alura
 
-HTML e CSS
-  data de inicio: 18/11/2024
-  data de finalização: ?
+## FrontEnd
 
-SpotifyApp
-  data de inicio: 22/11/2024
+### [HTML e CSS](https://soundmapify.vercel.app)
+    data de inicio: 18/11/2024
+    data de finalização: 21/11/24
+
+### [SpotifyApp](https://soundmapify.vercel.app)
+    data de inicio: 22/11/2024
+    finalização do prototipo: 26/11/2024
+    data de finalização: ?
   
