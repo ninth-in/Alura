@@ -12,3 +12,7 @@ Repo feito para guardar estudos feitos na alura
     finalização do prototipo: 26/11/2024
     data de finalização: ?
   
+### Portifolio
+     - Estudo de UI e REACT
+    data de inicio: 04/12/2024
+    data de finalização: ?
