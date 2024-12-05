@@ -1,8 +1,10 @@
-export default function Item{
-    return(
-        <li key={index}>
-            <h3>{item.tarefa}</h3>
-            <span>{item.tempo}</span>
-        </li>
-    )
+import style from '../style.module.scss';
+
+export default function Item({ tarefa, tempo }: { tarefa: string, tempo: string}) {
+  return (
+    <li className={style.item}>
+      <h3>{tarefa}</h3>
+      <span>{tempo}</span>
+    </li>
+  )
 }
