@@ -8,6 +8,8 @@ Repo feito para guardar estudos feitos na alura
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
 
 ### [HTML e CSS](https://alura-orpin.vercel.app)
     data de inicio: 18/11/2024
@@ -23,6 +25,7 @@ Repo feito para guardar estudos feitos na alura
     data de inicio: 04/12/2024
     data de finalização: ?
 
-### React
+### React 
     data de inicio: 05/12/2024
-    data de finalização: ???
+    primeiro projeto: 06/12/2024
+    data de finalização: ?
